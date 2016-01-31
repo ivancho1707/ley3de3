@@ -1,0 +1,213 @@
+/*
+Theme Name: Ley 3 de 3
+Author: IMCO TI Team
+Author URI: https://imco.org.mx/
+Description: Template para el sitio 3 de 3 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*
+
+@import url(/wp-content/themes/ley3de3/css/style.css);
+
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Reset
+**/
+
+/**
+ * 1.0 - Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 62.5%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+
+a:focus {
+	outline: 2px solid #c1c1c1;
+	outline: 2px solid rgba(51, 51, 51, 0.3);
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+/**
+ * 2.0 - Header Menu
+ *
+ * Style for the header Menu
+ * Work of Enrique de la Sota, Emir Herrera
+ **/
+
+@font-face {
+    font-family:'Montserrat SemiBold';
+    src: local('MontserratSemiBold'), url(fonts/Montserrat-SemiBold.ttf);
+}
+
+ #header {
+	background-color: #EBEBEC;
+	position: relative;
+	height: 100px;
+ }
+
+ #header div.col-md-2 img.logo{
+ 	margin-left: 15px;
+ }
+
+ #header .menu a {
+ 	font-family: 'Montserrat SemiBold';
+ 	font-size: 16pt;
+ 	color:#333333;
+ }
+
+#header .menu-horizontal  {
+ 	text-align:right;
+ 	display:inline-block;
+ }
+
+ #header .menu-horizontal ul.menu li {
+ 	display:inline-block;
+ 	padding: 0px 30px;
+ 	border-right: 2px #919396 solid;
+ 	text-transform: uppercase;
+ }
+
+ #header .menu-horizontal ul.menu li:last-child {
+ 	border-right: none;
+ }
+
+#header .menu-horizontal ul.menu li span.backlabel {
+ 	display:none;
+ }
+
+#header .social{
+	display:inline-block;
+	height:40px;
+}
+
+#header .social a {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right:30px;
+}
+
+#header .social a:hover {
+    background-position: -40px 0;
+}
+
+#header a.facebook{
+    background: transparent url(images/sprite-fb.png) no-repeat 0 0;
+}
+
+#header a.twitter{
+    background: transparent url(images/sprite-tw.png) no-repeat 0 0;
+}
+
+
+#header a.youtube{
+    background: transparent url(images/sprite-yt.png) no-repeat 0 0;
+}
+
+ .valign{
+ 	position:relative;
+ 	top:50%;
+ 	transform:translateY(-50%);
+ }
+
+ .right{
+ 	float:right;
+ }

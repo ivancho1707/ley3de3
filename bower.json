@@ -1,0 +1,26 @@
+{
+  "name": "wordpress-template-imco",
+  "description": "El primer wordpress del imco con sus parches",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Tecnología IMCO"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "imco",
+    "template",
+    "wordpress"
+  ],
+  "moduleType": [],
+  "homepage": "dev.imco.org.mx",
+  "private": true,
+  "dependencies": {
+    "angular-animate": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "angular": "~1.4.4",
+    "angular-sanitize": "~1.4.4",
+    "bootstrap": "~3.3.5",
+    "foundation": "~5.5.2",
+    "greensock": "~1.17.0"
+  }
+}

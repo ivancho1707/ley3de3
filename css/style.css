@@ -1,0 +1,102 @@
+#content .container .ajax-content .window h2 .categories .tab .icon.publicaciones {
+  background: transparent url(images/icon/newspaper_sprite.png) no-repeat center -19px;
+  position: relative;
+  top: 6px;
+  margin-right: 2px;
+  display: inline-block;
+  width: 22px;
+  height: 19px;
+}
+
+
+/** Inicia sección de botones para redes sociales **/
+.social a.facebook, .social a.twitter {
+    float: left;
+    width: 23px;
+    height: 23px;
+}
+
+.social a.facebook:hover, .social a.twitter:hover {
+    background-position: -25px 0;
+}
+
+a.facebook{
+    background: transparent url(images/icon/fb_icon.png) no-repeat 0 0;
+    margin:5px;
+}
+
+a.twitter{
+    background: transparent url(images/icon/tweet_icon.png) no-repeat 0 0;
+    margin:5px;
+}
+
+/** Termina sección de botones para redes sociales **/
+
+.buscar-submit { 
+	background-image: url(images/icon/buscar.png);
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 30px;
+	border: 0px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#middle-div-header .header-menu.horizontal #menu-header-menu  li {
+	max-width: 110px;
+	text-transform: uppercase;
+    float: left;
+    position: relative;
+    margin:auto 5px;
+}
+#middle-div-header .header-menu.horizontal #menu-header-menu  li span.backlabel {
+	display:none;
+}
+
+#middle-div-header .header-menu.horizontal #menu-header-menu li a {
+	font-family: "Open Sans",sans-serif;
+	font-weight: 600;
+	text-align:left;
+	position: relative;
+	padding: 26px 0px 5px;
+	line-height: 0.9rem;
+	font-size: 0.8rem;
+	color:white;
+	max-width: 100px;
+	text-decoration: none;
+}
+
+#header .header-menu.horizontal #menu-header-menu li:hover a,
+#header .header-menu.horizontal #menu-header-menu li.current_page_item a {
+    color: #00A5D0;
+}
+
+#header img.logo{
+	padding:15px;
+}
+
+#middle-div-header .header-menu.horizontal #menu-header-menu li.current_page_item a:after,
+#middle-div-header .header-menu.horizontal #menu-header-menu li:hover a:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    top: 52px;
+    left: 0px;
+    height: 7px;
+    border-bottom: 2px #00A5D0 solid;
+    color: #00A5D0;
+}
+
+#middle-div-header .header-menu #menu-header-menu li:last-child::before {
+	border-right: none;
+}
+#middle-div-header .header-menu #menu-header-menu li:before {
+    content: '';
+    border-right: #8F8F8F 1px solid;
+    position: absolute;
+    height: 27px;
+    margin-left: -1px;
+    margin-top: 26px;
+    width: 1px;
+}
