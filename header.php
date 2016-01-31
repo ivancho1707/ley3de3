@@ -76,9 +76,9 @@
 		<div class="right">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class'=>'menu-horizontal' ) ); ?>
 			<div class='social '>
-				<a href='https://www.facebook.com/imcomx' target="_blank" class='facebook'></a>
-				<a href='http://twitter.com/imcomx' target="_blank" class='twitter'></a>
-				<a href='https://www.youtube.com/user/imcomexico' target="_blank" class='youtube'></a>
+				<a href='https://www.facebook.com/ley3de3/' target="_blank" class='facebook'></a>
+				<a href='https://twitter.com/ley3de3' target="_blank" class='twitter'></a>
+				<a href='https://www.youtube.com/channel/UC5P7XD5if94XVnABe38sVUg' target="_blank" class='youtube'></a>
 			</div>
 		</div>
     </div>
