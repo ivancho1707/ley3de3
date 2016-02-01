@@ -281,6 +281,12 @@ footer a.youtube{
     background: transparent url(images/sprite-yt.png) no-repeat -40px 0;
 }
 
+
+.page-container{
+	padding-top: 50px;
+}
+
+
  .valign{
  	position:relative;
  	top:50%;

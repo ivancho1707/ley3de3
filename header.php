@@ -26,9 +26,12 @@
 		$current_title = $post->post_title;
 	?>
 
-	<script type='text/javascript'>
+	<!--script type='text/javascript'>
 		var current_page = '<?php global $post; echo $post->post_name; ?>';
-	</script>
+	</script-->
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
 
 	<script src="<?php bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -74,7 +77,7 @@
 	</div>
 	<div class="col-md-10 valign">
 		<div class="right">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class'=>'menu-horizontal' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'header', 'container_class'=>'menu-horizontal' ) ); ?>
 			<div class='social '>
 				<a href='https://www.facebook.com/ley3de3/' target="_blank" class='facebook'></a>
 				<a href='https://twitter.com/ley3de3' target="_blank" class='twitter'></a>

@@ -18,7 +18,7 @@
 		</div>
 		<div class="col-md-10 valign">
 			<div class="right">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class'=>'menu-horizontal' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'footer', 'container_class'=>'menu-horizontal' ) ); ?>
 				<div class='social '>
 					<a href='https://www.facebook.com/ley3de3/' target="_blank" class='facebook'></a>
 					<a href='https://twitter.com/ley3de3' target="_blank" class='twitter'></a>
