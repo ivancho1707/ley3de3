@@ -31,6 +31,7 @@
 	</script-->
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic' rel='stylesheet' type='text/css'>
 
 
 	<script src="<?php bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js"></script>

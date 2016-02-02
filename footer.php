@@ -12,6 +12,7 @@
 
 	</div><!-- .site-content -->
 
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-md-2 valign">
 			<a href='/' > <img class="logo" src="<?php bloginfo('template_directory') ?>/images/logo-footer.png"></a>

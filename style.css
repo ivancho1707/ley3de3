@@ -62,7 +62,7 @@ html {
 }
 
 body {
-	background: #f1f1f1;
+	/*background: #f1f1f1;*/
 }
 
 article,
@@ -202,20 +202,13 @@ a img {
     background: transparent url(images/sprite-yt.png) no-repeat 0 0;
 }
 
-
-
-
-
-
-
-
-
 footer {
 	background-color: #333333;
-	position: fixed;
+	position: relative;
 	height: 100px;
 	bottom: 0px;
 	width:100%;
+	margin-top: 50px;
  }
 
 footer div{
@@ -281,12 +274,202 @@ footer a.youtube{
     background: transparent url(images/sprite-yt.png) no-repeat -40px 0;
 }
 
+.page-container ul.introduccion-menu{
+	display:table;
+	width:100%;
+	text-align: center;
+}
+
+.page-container ul.introduccion-menu li{
+	display:table-cell;
+}
+
+.page-container ul.introduccion-menu li a {
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
+.page-container ul.introduccion-menu li a label{
+	border-right: 2px #919396 solid;
+	width:100%;
+	cursor: pointer; cursor: hand;
+}
+
+
+.page-container ul.introduccion-menu li a span.item-informate{
+	background: transparent url('images/informate.png') no-repeat 0px 0px;
+}
+
+.page-container ul.introduccion-menu li a span.item-ayudanos{
+	background: transparent url('images/ayudanos.png') no-repeat 0px 0px;
+}
+.page-container ul.introduccion-menu li a span.item-firma{
+	background: transparent url('images/firma.png') no-repeat 0px 0px;
+}
+
+.page-container ul.introduccion-menu li a:hover span{
+	background-position: -149px 0px;
+}
+
+.page-container ul.introduccion-menu li:last-child a label{
+	border-right: none;
+}
+
+.page-container ul.introduccion-menu li a{
+	font-size: 24pt;
+	font-family: 'Montserrat SemiBold';
+	display:inline-block;
+	color:#333333;
+}
+
+.page-container ul.introduccion-menu li a span{
+	display:block;
+	margin:auto;
+	width:149px;
+	height:149px;
+}
+
+.page-container ul.introduccion-menu li a:hover{
+	color:#0094D9;
+}
+
 
 .page-container{
 	padding-top: 50px;
 }
 
+.page-container div.white-box {
+	padding: 0px 20px;
+	/*background-color: white;*/
+	display:inline-block;
+	top: 0px;
+	transform:translateY(50%);
+	position:relative;
+	z-index: 100;
+	display:inline-block;
 
+}
+
+.page-container div.white-box div.black-box{
+	display:inline;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 34px;
+	height:50px;
+	vertical-align: middle;
+	padding: 0px 20px;
+	color:white;
+	background-color:black;
+	text-transform:uppercase;
+	position:relative;
+	z-index:100;
+}
+
+.page-container .page-content{
+	position:relative;
+	z-index:50;
+	padding: 50px 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.page-container .page-content p {
+	margin-top:0em;
+	margin-bottom: 1.2em;
+}
+
+
+.page-container .page-content ol{
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-top:0em;
+	margin-bottom: 1.2em;
+}
+
+
+.page-container .page-content ul.descargable{
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-top:0em;
+	margin-bottom: 20px;
+	display: table;
+}
+
+.page-container .page-content ul.descargable li:first-child{
+	font-family: 'Montserrat SemiBold';
+	font-size: 24px;
+}
+
+.page-container .page-content ul.descargable li:last-child{
+	font-family: 'Montserrat';
+	font-size: 21px;	
+}
+.page-container .page-content ul.rosa li:first-child{
+	background-color: #EC2466;
+}
+
+.page-container .page-content ul.rosa li:last-child{
+	background-color: #B11B4D;
+}
+
+.page-container .page-content ul.azul li:first-child{
+	background-color: #0094D9;
+}
+
+.page-container .page-content ul.azul li:last-child{
+	background-color: #006FA3;
+}
+
+
+.page-container .page-content ul.descargable li:last-child a::before{
+	content: url(images/flecha-descarga.png);
+    vertical-align: -50%;
+    padding: 0 10px 0 0;
+}
+
+.page-container .page-content ul.descargable li span, .page-container .page-content ul.descargable li a{
+	vertical-align: middle;
+	text-align: center;
+	color:white;
+	display: table-cell;
+	height:60px;
+	width: 300px;
+}
+
+
+.page-container .page-content ul{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-top:0em;
+	margin-bottom: 1.2em;
+}
+
+
+ol ul, ul ul, ul ol {
+	margin-left: 30px;
+}
+
+.page-container .page-content p em {
+	font-style: italic;
+}
+
+.page-container .page-content p strong {
+	font-weight: bold;
+}
+
+
+div.multipage-container:nth-child(even) div.row  .page-content{
+	background-color: #EBEBEC;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
  .valign{
  	position:relative;
  	top:50%;
