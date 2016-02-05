@@ -24,7 +24,7 @@
 
 		<div class="multipage-container">
 			<?php $this_page_id=get_query_var('page_id'); ?>
-			<?php query_posts(array('post_parent' => $this_page_id, 'post_type' => 'page')); while (have_posts()) { the_post(); ?>
+			<?php query_posts(array('post_parent' => $this_page_id, 'post_type' => 'page', 'orderby'=>'menu_order', 'order'=>'ASC')); while (have_posts()) { the_post(); ?>
 				<div class="row"><a name="<?php echo basename(get_permalink()); ?>"></a>
 					<div class="col-md-2"></div>
 					<div class="col-md-8 text-center">

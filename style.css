@@ -149,7 +149,7 @@ a img {
 
  #header .menu a {
  	font-family: 'Montserrat SemiBold';
- 	font-size: 16pt;
+ 	font-size: 16px;
  	color:#333333;
  }
 
@@ -221,7 +221,7 @@ footer div{
 
  footer .menu a {
  	font-family: 'Montserrat SemiBold';
- 	font-size: 14pt;
+ 	font-size: 14px;
  	color:#EBEBEC;
  }
 
@@ -317,7 +317,7 @@ footer a.youtube{
 }
 
 .page-container ul.introduccion-menu li a{
-	font-size: 24pt;
+	font-size: 24px;
 	font-family: 'Montserrat SemiBold';
 	display:inline-block;
 	color:#333333;
@@ -421,6 +421,20 @@ footer a.youtube{
 	background-color: #006FA3;
 }
 
+.page-container .page-content div.descargable.verde a{
+	font-family: 'Montserrat SemiBold';
+	text-transform: uppercase;
+	font-size: 24px;
+	background-color: #60BA56;
+	vertical-align: middle;
+	text-align: center;
+	color:white;
+	display: table-cell;
+	height:120px;
+	width: 300px;
+
+}
+
 
 .page-container .page-content ul.descargable li:last-child a::before{
 	content: url(images/flecha-descarga.png);
@@ -459,10 +473,24 @@ ol ul, ul ul, ul ol {
 }
 
 
-div.multipage-container:nth-child(even) div.row  .page-content{
+div.multipage-container div.row:nth-child(odd)  .page-content{
 	background-color: #EBEBEC;
 }
 
+div.multipage-container div.row:nth-child(even) .page-content{
+	padding-bottom: 0px;
+}
+
+/*
+div.multipage-container div.row:nth-child(even){
+	transform:translateY(-50px);
+	z-index:200;
+}
+*/
+
+div.content-column.last_column{
+	padding-left: 20px;
+}
 .text-center{
 	text-align: center;
 }
